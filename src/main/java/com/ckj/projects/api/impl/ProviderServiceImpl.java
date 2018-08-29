@@ -10,24 +10,24 @@ import org.springframework.stereotype.Service;
  */
 @Service("providerServiceImpl")
 public class ProviderServiceImpl implements ProviderService {
-    @Override
+
     public String doService(String msg) {
         System.out.println("doService:"+msg);
         return msg+"="+msg;
     }
 
-    @Override
+
     public String getMsg() {
         return "helloy boy";
     }
 
-    @Override
+
     public String[] getMsgs() {
         String[] strings={"i","you","she"};
         return strings;
     }
 
-    @Override
+
     public Message[] getMsgList() {
 
         Message[] messages=new Message[2];
@@ -36,7 +36,7 @@ public class ProviderServiceImpl implements ProviderService {
         return messages;
     }
 
-    @Override
+
     public void sendListMsg(Message[] msgs) {
             for(int i=0;i<msgs.length;i++){
                 System.out.println(msgs[i].toString());

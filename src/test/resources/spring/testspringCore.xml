@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:mdubbo="http://127.0.0.1:8080/MDubbo/schema/mdubbo" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mdubbo="http://ckj.mdubbo.com/MDubbo/schema/mdubbo" xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
-       http://127.0.0.1:8080/MDubbo/schema/mdubbo http://127.0.0.1:8080/MDubbo/schema/mdubbo/mdubbo.xsd">
+       http://ckj.mdubbo.com/MDubbo/schema/mdubbo http://ckj.mdubbo.com/MDubbo/schema/mdubbo/mdubbo.xsd">
 
     <context:component-scan base-package="com.ckj.projects"/>
 
-    <!--注册中心-->
+    <!--索引服务器地址-->
     <mdubbo:indexServer id="indexServer" address="http://localhost:8080/MDubboIndexServer/IndexServer"/>
 
     <!--服务订阅者-->
