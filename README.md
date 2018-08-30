@@ -101,7 +101,7 @@ address=192.168.12.123:2181
     }
     
     开发完成：链接地址：
-    索引服务器：
+    索引服务器：https://github.com/chenfengluoye/MDubboIndexServer
     MdubboClient:https://github.com/chenfengluoye/MDubboClient
     MdubboDemo:https://github.com/chenfengluoye/MDubboDemo
 
