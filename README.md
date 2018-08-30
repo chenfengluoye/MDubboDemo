@@ -102,7 +102,7 @@ address=192.168.12.123:2181
     
     开发完成：链接地址：
     索引服务器：
-    MdubboClient:
+    MdubboClient:https://github.com/chenfengluoye/MDubboClient
     MdubboDemo:https://github.com/chenfengluoye/MDubboDemo
 
    
